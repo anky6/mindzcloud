@@ -2,9 +2,11 @@ import router from '../../router'
 import Viewer from 'viewerjs'
 
 const state = {
+  patchUpdateDom: false
 }
 
 const getters = {
+  patchUpdateDom: state => state.patchUpdateDom
 }
 
 const mutations = {
